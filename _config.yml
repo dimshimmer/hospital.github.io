@@ -29,37 +29,37 @@ doctors:
     id: 0x01
     dept_id: 0x03
     phone_number: "456"
-    url: /hospital.github.io/doctor/temp.html
+    url: "/hospital.github.io/doctor/temp.html"
   - name: "王五"
     id: 0x02
     dept_id: 0x00
     phone_number: "798"
-    url: /hospital.github.io/doctor/temp.html
+    url: "/hospital.github.io/doctor/temp.html"
   - name: "赵六"
     id: 0x03
     dept_id: 0x01
     phone_number: "012"
-    url: /hospital.github.io/doctor/temp.html
+    url: "/hospital.github.io/doctor/temp.html"
 departments:
   - name: "儿科"
     description: "主要研究儿童生长发育、疾病预防和治疗"
     id: 0x00
     contact_number: "000"
-    url: /hospital.github.io/department/temp.html
+    url: "/hospital.github.io/department/temp.html"
   - name: "内科"
     description: "主要研究人体内部各个器官的疾病，包括心脏、肺、肝、肾、胃肠、神经等器官系统的疾病"
     id: 0x01
     contact_number: "001"
-    url: /hospital.github.io/department/temp.html
+    url: "/hospital.github.io/department/temp.html"
   - name: "骨科"
     description: "专注于研究和治疗骨骼、关节、肌肉和其他与运动系统相关的疾病和损伤。"
     id: 0x02
     contact_number: "002"
-    url: /hospital.github.io/department/temp.html
+    url: "/hospital.github.io/department/temp.html"
   - name: "外科"
     description: "涉及各种器官和组织，包括心脏、肺、肝、胃肠道、骨骼、血管和神经系统等"
     id: 0x03
     contact_number: "003"
-    url: /hospital.github.io/department/temp.html
+    url: "/hospital.github.io/department/temp.html"
 
   
