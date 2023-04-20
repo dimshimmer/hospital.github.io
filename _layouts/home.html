@@ -32,7 +32,7 @@ layout: default
     word-wrap:break-word;  
     word-break:break-all; 
     display: table-cell;
-    padding: 50px;
+    padding: 20px;
   }
   .my_table {
   display: table;
@@ -59,7 +59,7 @@ layout: default
     <h1 class="heading" >
       热门科室
     </h1>
-    <a href="/departments.html">
+    <a href="{{ '/departments.html' | prepend: site.baseurl }}">
       <u >全部科室>></u>
     </a>
     <div class="my_table">
@@ -77,7 +77,7 @@ layout: default
                   {{ dept.name | default:"Empty" }}
                 </a>
               </h2>
-              <h3 >
+              <h3 style="width: 450px;  word-wrap:break-word;  word-break:break-all; display: table-cell;">
                 {{ dept.description | default:"Empty" }}
               </h3>
           </div>
@@ -95,7 +95,7 @@ layout: default
     <h1 class="heading" >
       热门医生
     </h1>
-    <a href="/doctors.html">
+    <a href="{{ '/doctors.html' | prepend: site.baseurl }}">
       <u style="text-align: right;">全部医生>></u>
     </a>
     <div class="my_table">
