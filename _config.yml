@@ -1,6 +1,7 @@
 name: 老和山人民医院预约系统
 author: ZZ
 title: Upflow
+destination: docs
 description: |
   A reservation website for the laoheshan hopital 
   患者预约就诊的在线服务，可以通过网络进行: 医生预约、挂号、缴费、查询等操作
