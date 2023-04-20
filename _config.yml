@@ -9,7 +9,7 @@ description: |
   - 挂号预约
   - 预约查询
   - 医院信息查询
-baseurl: ""
+baseurl: "https://dimshimmer.hospital.github.io/"
 url: "https://dimshimmer.hospital.github.io/"
 plugins: 
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
