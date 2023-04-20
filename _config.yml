@@ -1,9 +1,15 @@
-name: Hospital_reservation
+name: 老和山人民医院预约系统
 author: ZZ
 title: Upflow
-description: >-
- A reservation website for the laoheshan hopital
-
+description: |
+  A reservation website for the laoheshan hopital 
+  患者预约就诊的在线服务，可以通过网络进行: 医生预约、挂号、缴费、查询等操作
+  具体功能如下：
+  - 医生预约
+  - 挂号预约
+  - 预约查询
+  - 医院信息查询
+baseurl: ""
 url: "https://dimshimmer.hospital.github.io/"
 plugins: 
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
@@ -12,40 +18,48 @@ plugins:
 permalink: /:categories/:name
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 list_title: Boom
-collections:
-  building:
-    name: Building
-    output: true
-    sort_by: chap
-    url: /building/
-    description: "The process and the tutorial of building the blog website"
-  kernel:
-    name: Kernel
-    output: true
-    sort_by: chap
-    url: /kernel/
-    description: "Learning the kernel of Linux under the course: os"
-  CTF:
-    name: CTF
-    output: true
-    sort_by: chap
-    url: /ctf/
-    description: "Journey to a CTFer"
-  xiaohong:
-    name: x1a0_h0n9
-    output: true
-    sort_by: chap
-    url: /xiaohong/
-    description: "Diary"
-  dopant:
-    name: T0_D0
-    output: true 
-    cort_by: chap
-    url: /dopant/
-    description: "To-Do list"  
-  gpt:
-    name: 9pt
-    output: true 
-    cort_by: chap
-    url: /gpt/
-    description: "Gpt learning"  
+
+doctors:
+  - name: "张三"
+    id: 0x00
+    dept_id: 0x02
+    phone_number: "123"
+    url: /doctor/temp.html
+  - name: "李四"
+    id: 0x01
+    dept_id: 0x03
+    phone_number: "456"
+    url: /doctor/temp.html
+  - name: "王五"
+    id: 0x02
+    dept_id: 0x00
+    phone_number: "798"
+    url: /doctor/temp.html
+  - name: "赵六"
+    id: 0x03
+    dept_id: 0x01
+    phone_number: "012"
+    url: /doctor/temp.html
+departments:
+  - name: "儿科"
+    description: "主要研究儿童生长发育、疾病预防和治疗"
+    id: 0x00
+    contact_number: "000"
+    url: /department/temp.html
+  - name: "内科"
+    description: "主要研究人体内部各个器官的疾病，包括心脏、肺、肝、肾、胃肠、神经等器官系统的疾病"
+    id: 0x01
+    contact_number: "001"
+    url: /department/temp.html
+  - name: "骨科"
+    description: "专注于研究和治疗骨骼、关节、肌肉和其他与运动系统相关的疾病和损伤。"
+    id: 0x02
+    contact_number: "002"
+    url: /department/temp.html
+  - name: "外科"
+    description: "涉及各种器官和组织，包括心脏、肺、肝、胃肠道、骨骼、血管和神经系统等"
+    id: 0x03
+    contact_number: "003"
+    url: /department/temp.html
+
+  
