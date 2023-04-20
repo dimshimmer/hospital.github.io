@@ -1,0 +1,51 @@
+name: Hospital_reservation
+author: ZZ
+title: Upflow
+description: >-
+ A reservation website for the laoheshan hopital
+
+url: "https://dimshimmer.hospital.github.io/"
+plugins: 
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
+  - jemoji
+permalink: /:categories/:name
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+list_title: Boom
+collections:
+  building:
+    name: Building
+    output: true
+    sort_by: chap
+    url: /building/
+    description: "The process and the tutorial of building the blog website"
+  kernel:
+    name: Kernel
+    output: true
+    sort_by: chap
+    url: /kernel/
+    description: "Learning the kernel of Linux under the course: os"
+  CTF:
+    name: CTF
+    output: true
+    sort_by: chap
+    url: /ctf/
+    description: "Journey to a CTFer"
+  xiaohong:
+    name: x1a0_h0n9
+    output: true
+    sort_by: chap
+    url: /xiaohong/
+    description: "Diary"
+  dopant:
+    name: T0_D0
+    output: true 
+    cort_by: chap
+    url: /dopant/
+    description: "To-Do list"  
+  gpt:
+    name: 9pt
+    output: true 
+    cort_by: chap
+    url: /gpt/
+    description: "Gpt learning"  
